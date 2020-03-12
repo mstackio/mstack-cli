@@ -4,7 +4,7 @@ const fs = require("fs");
 function getBuildTemplatesFilesList() {
     return new Promise((resolve, reject) => {
 
-        const url = `https://api.github.com/repos/scalefog/build-templates/git/trees/master?recursive=true`;
+        const url = `https://api.github.com/repos/mstackio/build-templates/git/trees/master?recursive=true`;
 
         request.get({
             headers: {

@@ -1,4 +1,4 @@
-const Node = require("mstack-api").scalefog,
+const Node = require("mstack-api").mstack,
     fs = require("fs"),
     exists = fs.existsSync || path.existsSync,
     path = require("path"),
