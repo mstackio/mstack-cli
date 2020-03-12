@@ -1,0 +1,22 @@
+{
+  "name": "mstack-cli",
+  "version": "1.0.0",
+  "description": "Scalefog command line interface",
+  "main": "./bin/mstack.js",
+  "bin": {
+    "scf": "./bin/mstack.js"
+  },
+  "repository": "https://github.com/mstackio/mstack-cli.git",
+  "author": "Kenneth Iversen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mstackio/mstack-cli/issues"
+  },
+  "homepage": "https://github.com/mstackio/mstack-cli#readme",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "commander": "^4.1.1",
+    "mstack-api": "^1.0.0",
+    "prompt": "^1.0.0"
+  }
+}
