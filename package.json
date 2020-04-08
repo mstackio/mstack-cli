@@ -1,7 +1,7 @@
 {
   "name": "mstack-cli",
   "version": "1.0.1",
-  "description": "Scalefog command line interface",
+  "description": "mstack command line interface",
   "main": "./bin/mstack.js",
   "bin": {
     "scf": "./bin/mstack.js"
