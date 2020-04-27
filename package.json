@@ -1,10 +1,10 @@
 {
   "name": "mstack-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "mstack command line interface",
   "main": "./bin/mstack.js",
   "bin": {
-    "scf": "./bin/mstack.js"
+    "mstack": "./bin/mstack.js"
   },
   "repository": "https://github.com/mstackio/mstack-cli.git",
   "author": "Kenneth Iversen",
