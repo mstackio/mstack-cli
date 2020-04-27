@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const auth = require("../modules/auth");
 const app = require("../modules/app");
 const templates = require("../modules/templates");
